@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Teacher's Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ICT PROJECT.html">HOME</a></li>
+                    <li><a href="introduction.html">INTRODUCTION</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="special mention.html">SPECIAL MENTION</a></li>
+                    <li><a href="about us.html">GROUP 2</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+<!----about us-->
+
+<section class="aboutus">
+    <h1>ABOUT US</h1>
+    <p>This website are made by Group 4 from 9A. Consists of: Graciana as the programmer or coder 😎 and Hendry with Blessing as the data collector and technical advisor 🤩 </p>
+
+    </section>
+
+    <section class="kita">
+    
+        <div class="row">
+            <div class="kita-col">
+                <img src="images/graciana.JPG">
+                <div class="layer">
+                    <h3>Graciana Charity Helena R </h3>
+                </div>
+            </div>
+            <div class="kita-col">
+                <img src="images/hendry.JPG">
+                <div class="layer">
+                    <h3>Hendry Johanes Sumendap</h3>
+                </div>
+            </div>
+            <div class="kita-col">
+                <img src="images/blessing.JPG">
+                <div class="layer">
+                    <h3>Gregorius Axell Blessing Susanto</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+<!--JavaScript for Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>

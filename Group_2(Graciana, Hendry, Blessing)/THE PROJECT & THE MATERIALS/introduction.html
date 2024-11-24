@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Teacher's Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="ICT PROJECT.html">HOME</a></li>
+                    <li><a href="introduction.html">INTRODUCTION</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="special mention.html">SPECIAL MENTION</a></li>
+                    <li><a href="about us.html">GROUP 2</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+<!-----introduction-->
+
+<section class="introduction">
+
+    <div class="row">
+        <div class="introduction-col">
+            <h1>What and when is National Teacher's Day
+                <br> in Indonesia? 
+            </h1>
+            <p>
+                National Teachers' Day is a day dedicated to respecting, appreciating and celebrating the important role of teachers in forming the younger generation and advancing education. <br> 
+                This day is celebrated in various countries, usually on different dates, as a form of respect for the contribution of teachers in building society and educating the nation's life. <br>
+                In Indonesia, National Teachers' Day is celebrated every 25 November, coinciding with the birth of the Republic of Indonesia Teachers' Association (PGRI) in 1945. <br>
+                The purpose of National Teachers' Day in Indonesia is to respect and appreciate the services of teachers, increase public awareness of the importance of the role of teachers in the world of education,
+                provide motivation for teachers to continue to contribute to the intelligent life of the nation, and strengthen relations between teachers, students and society.
+            </p>
+
+        </div>
+        <div class="introduction-col">
+            <img src="images/Untitled design (2).png">
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Made with love by Group 4 Grade 9A, which consists of Graciana, Blessing, and Hendry. <br>
+    Once again, Happy Teachers' Day! Your hard work, passion, and dedication <br>
+    are truly appreciated.</p>
+
+</section>
+
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
