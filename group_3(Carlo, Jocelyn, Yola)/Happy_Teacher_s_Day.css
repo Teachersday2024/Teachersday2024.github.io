@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 179, 206);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    background-color: rgb(237, 62, 120);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.letter {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+     width: 400px;
+     height: 400px;
+
+}
+
+.letter img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 10px;
+    color: rgb(224, 1, 75);
+    font-family: fantasy;
+}
+
+.text {
+    font-size: 100px;
+    color: rgb(237, 62, 120);
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.group-members {
+    margin-top: auto;         
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fefefe;
+    text-align: center;       
+    border-radius: 5px;
+}
+    
+
+
